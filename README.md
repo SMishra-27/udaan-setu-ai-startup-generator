@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Udaan Setu – AI Startup Generator
 
-# Run and deploy your AI Studio app
+Udaan Setu is an AI-powered platform that transforms user skills and interests into startup ideas, business plans, and pitch decks.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/b7547a8d-a90b-4f75-a302-6e971fde3a15
+* Generate startup ideas based on user profile
+* Create structured business plans
+* Build MVP roadmaps
+* Generate pitch decks using AI
+* Store and manage ideas in database
 
-## Run Locally
+## 🧠 Tech Stack
 
-**Prerequisites:**  Node.js
+* Frontend: React (Vite)
+* Backend: Node.js (Express)
+* Database: SQLite
+* AI Integration: Google Gemini API
 
+## ⚙️ How It Works
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* User enters skills, experience, and interests
+* Backend processes data and generates startup ideas
+* AI generates detailed business plans
+* Data is stored and retrieved using database
+
+## 👩‍💻 My Contribution
+
+* Designed frontend interface
+* Implemented logic for idea generation
+* Worked on backend integration and data handling
+
+## 📄 Resources
+
+* Presentation: TerraMind (2).pdf
+
+## ⚠️ Note
+
+API keys are not included for security reasons. Add your own API key in `.env` to run the project.
